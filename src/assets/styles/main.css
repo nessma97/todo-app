@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --main-color: #8c78ff94;
+    --secondary-color: #4b12f79f;
+    --light-moov:#7f69f8;
+    --lighter-moov: #dfd1ff;
+    --dark-moov: #10003fb4;
+
+}
+
+* {
+    box-sizing: border-box;
+    font-family: inherit;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    font-size: inherit;
+    padding: 0;
+    margin: 0; 
+}
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    background: linear-gradient(90deg, rgba(158, 126, 255, 0.7067869384081757) 0%, rgba(148, 152, 255, 0.8412407199207808) 24%, rgba(227, 208, 255, 0.7852183109571954) 50%, rgba(152, 145, 255, 1) 100%);
+}
